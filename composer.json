@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
+    },
+    "files": [
+      "core/helper/functions.php",
+      "core/helper/response.php"
+    ]
+  },
+  "name": "php/mvc",
+  "description": "",
+  "require": {
+    "ext-json": "*"
+  }
+}
